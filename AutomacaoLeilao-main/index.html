@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leilão</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="product-description">
+            <h2>Porshe 718 Boxter</h2>
+            <p>Carro de Luxo, com muito conforto e um pouco de esportividade.</p>
+            <img src="foto2.jpg" alt="Porshe" width="">
+            <p>Lance Mínimo: R$ <span id="minLance">500.000,00</span></p>
+            <p><strong>Valor Atual: R$ <span id="valorAtual">520.100,00</span></strong></p>
+        </div>
+
+        <div class="bid-section">
+            <input type="number" id="lanceInput" placeholder="Digite seu lance" step="0.01" required>
+            <button id="submitLance">Enviar Lance</button>
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
